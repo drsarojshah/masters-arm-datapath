@@ -44,7 +44,13 @@ This project models and simulates a simplified ARMv8-style processor using a sub
 - ✅ Correct memory and register interactions  
 - ✅ RTL waveforms confirm proper operation (see screenshot)
 
-![Waveform Example](assets/waveform.png)
+### 🧪 Waveform Example: ADD & SUBI
+
+![Waveform ADD-SUBI](Vivado_Waveform/Waveform_Result_ADD-SUBI.png)
+
+### 🧪 Waveform Example: LDUR & STUR
+
+![Waveform LDUR-STUR](Vivado_Waveform/Waveform_Result_LDUR_STUR.png)
 
 ---
 
@@ -53,6 +59,7 @@ This project models and simulates a simplified ARMv8-style processor using a sub
 ```
 ├── C-Code
 ├── Vivado
+├── Vivado_Waveform
 ├── MP_Final_Report.pdf
 ├── README.md
 ```
