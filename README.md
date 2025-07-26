@@ -51,8 +51,9 @@ This project models and simulates a simplified ARMv8-style processor using a sub
 ## 📂 File/Folder Structure
 
 ```
-├── Code C
+├── C-Code
 ├── Vivado
+├── MP-Final Report.pdf
 ├── README.md
 ```
 
