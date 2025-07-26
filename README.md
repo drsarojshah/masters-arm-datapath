@@ -61,7 +61,7 @@ This project models and simulates a simplified ARMv8-style processor using a sub
 
 ## 📥 Downloads
 
-- 📘 [Final Report (PDF)](masters-presentation.pdf)  
+- 📘 [Final Report (PDF)](MP-Final Report.pdf)  
 - 🌐 [Portfolio Website](https://drsarojshah.github.io)  
 
 ---
