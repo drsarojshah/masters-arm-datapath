@@ -1,0 +1,49 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/processor 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/Lenovo/Vivado/HLS5/processor_hls.c' from C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Lenovo/Vivado/HLS5/processor_hls.c' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/Lenovo/Vivado/HLS5/processor_tb.c' from C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Lenovo/Vivado/HLS5/processor_tb.c' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=processor' from C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7a35tcpg236-1' from C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7a35t-cpg236-1'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/hls_config.cfg(10)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/Lenovo/Vivado/HLS5/Master_Project5_RTL/hls_config.cfg(5)
+INFO: [SIM 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [HLS 211-200] Compiling source code ../processor_hls.c as hardware code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/Users/Lenovo/Vivado/HLS5/processor_tb.c as test bench code with instrumentation
+INFO: [HLS 211-200] Compiling source code ../processor_hls.c as test bench code with instrumentation
+INFO: [HLS 211-200] Linking hardware code
+INFO: [HLS 211-200] Transforming hardware bitcode
+INFO: [HLS 211-200] Linking executable
+INFO: [HLS 211-200] Computing HLS IR Information
+INFO: [HLS 211-200] Determining source code dependencies
+INFO: [SIM 211-200] Running executable
+
+Input pc = 0; Output main_memory_out = 0x8B0F01CD; Opcode_out= 0x458; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x0000000F 
+
+Input pc = 1; Output main_memory_out = 0xCB0F01CD; Opcode_out= 0x658; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x00000003 
+
+Input pc = 2; Output main_memory_out = 0x8A0F01CD; Opcode_out= 0x450; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x00000000 
+
+Input pc = 3; Output main_memory_out = 0xAA0F01CD; Opcode_out= 0x550; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x0000000F 
+
+Input pc = 4; Output main_memory_out = 0x910031ED; Opcode_out= 0x244; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x6; Result_out = 0x00000012 
+
+Input pc = 5; Output main_memory_out = 0xD10011CD; Opcode_out= 0x344; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x9; Result_out = 0x00000005 
+
+Input pc = 6; Output main_memory_out = 0xF84001CB; Opcode_out= 0x7C2; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x9; Result_out = 0x00000009 
+
+Input pc = 7; Output main_memory_out = 0xF80001EC; Opcode_out= 0x7C0; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x6; Result_out = 0x00000006 
+INFO: [SIM 211-200] Analyzing trace data
+INFO: [SIM 211-208] Running Code Analyzer
+INFO: [SIM 211-210] Code Analyzer finished
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 9.497 seconds; peak allocated memory: 162.656 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 14s

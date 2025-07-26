@@ -1,0 +1,16 @@
+
+Input pc = 0; Output main_memory_out = 0x8B0F01CD; Opcode_out= 0x458; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x0000000F 
+
+Input pc = 1; Output main_memory_out = 0xCB0F01CD; Opcode_out= 0x658; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x00000003 
+
+Input pc = 2; Output main_memory_out = 0x8A0F01CD; Opcode_out= 0x450; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x00000000 
+
+Input pc = 3; Output main_memory_out = 0xAA0F01CD; Opcode_out= 0x550; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x0000000F 
+
+Input pc = 4; Output main_memory_out = 0x910031ED; Opcode_out= 0x244; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x6; Result_out = 0x00000012 
+
+Input pc = 5; Output main_memory_out = 0xD10011CD; Opcode_out= 0x344; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x9; Result_out = 0x00000005 
+
+Input pc = 6; Output main_memory_out = 0xF84001CB; Opcode_out= 0x7C2; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x9; Result_out = 0x00000009 
+
+Input pc = 7; Output main_memory_out = 0xF80001EC; Opcode_out= 0x7C0; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x6; Result_out = 0x00000006 

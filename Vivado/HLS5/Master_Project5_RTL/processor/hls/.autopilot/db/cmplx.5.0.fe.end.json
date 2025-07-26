@@ -1,0 +1,17 @@
+{
+    "0": {
+        "name": "processor",
+        "file": "processor_hls.c",
+        "fileloc": "27",
+        "instructions": "99",
+        "total_instructions": "99",
+        "calls": "",
+        "basicblocks": "16",
+        "loads": {
+            "G": "8"
+        },
+        "stores": {
+            "G": "6"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "top_level_hw_fn_id": 204,
+    "functions": {
+        "204": {
+            "fn_id": 204,
+            "mangled_name": "processor",
+            "fully_qualified_name": "processor",
+            "is_sys": false,
+            "is_declaration": false,
+            "supports_dataflow": true,
+            "src_loc": {
+                "file": "C:\\Users\\Lenovo\\Vivado\\HLS5\\processor_hls.c",
+                "line": 27,
+                "column": 1
+            }
+        }
+    },
+    "loops": {}
+}

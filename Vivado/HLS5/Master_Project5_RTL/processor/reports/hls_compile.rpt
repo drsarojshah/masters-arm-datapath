@@ -1,0 +1,129 @@
+
+
+================================================================
+== Synthesis Summary Report of 'processor'
+================================================================
++ General Information: 
+    * Date:           Sun May  4 19:38:49 2025
+    * Version:        2024.2 (Build 5238294 on Nov  8 2024)
+    * Project:        processor
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: artix7
+    * Target device:  xc7a35t-cpg236-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+    |   Modules   | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |           |          |     |
+    |   & Loops   | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|     FF    |    LUT   | URAM|
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+    |+ processor  |     -|  1.14|        7|  70.000|         -|        8|     -|        no|     -|   -|  294 (~0%)|  580 (2%)|    -|
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++-----------------+---------+-----------+----------+
+| Port            | Mode    | Direction | Bitwidth |
++-----------------+---------+-----------+----------+
+| main_memory_out | ap_vld  | out       | 32       |
+| op_value_1_out  | ap_vld  | out       | 32       |
+| op_value_2_out  | ap_vld  | out       | 32       |
+| opcode_out      | ap_vld  | out       | 32       |
+| pc_in           | ap_none | in        | 32       |
+| result_out      | ap_vld  | out       | 32       |
++-----------------+---------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++-----------------+-----------+----------+
+| Argument        | Direction | Datatype |
++-----------------+-----------+----------+
+| pc_in           | in        | int      |
+| main_memory_out | out       | int*     |
+| opcode_out      | out       | int*     |
+| op_value_1_out  | out       | int*     |
+| op_value_2_out  | out       | int*     |
+| result_out      | out       | int*     |
++-----------------+-----------+----------+
+
+* SW-to-HW Mapping
++-----------------+------------------------+---------+
+| Argument        | HW Interface           | HW Type |
++-----------------+------------------------+---------+
+| pc_in           | pc_in                  | port    |
+| main_memory_out | main_memory_out        | port    |
+| main_memory_out | main_memory_out_ap_vld | port    |
+| opcode_out      | opcode_out             | port    |
+| opcode_out      | opcode_out_ap_vld      | port    |
+| op_value_1_out  | op_value_1_out         | port    |
+| op_value_1_out  | op_value_1_out_ap_vld  | port    |
+| op_value_2_out  | op_value_2_out         | port    |
+| op_value_2_out  | op_value_2_out_ap_vld  | port    |
+| result_out      | result_out             | port    |
+| result_out      | result_out_ap_vld      | port    |
++-----------------+------------------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------+-----+--------+-------------+--------+----------+---------+
+| Name                    | DSP | Pragma | Variable    | Op     | Impl     | Latency |
++-------------------------+-----+--------+-------------+--------+----------+---------+
+| + processor             | 0   |        |             |        |          |         |
+|   icmp_ln52_fu_308_p2   |     |        | icmp_ln52   | setlt  | auto     | 0       |
+|   icmp_ln65_fu_362_p2   |     |        | icmp_ln65   | seteq  | auto     | 0       |
+|   icmp_ln65_1_fu_368_p2 |     |        | icmp_ln65_1 | seteq  | auto     | 0       |
+|   or_ln65_fu_374_p2     |     |        | or_ln65     | or     | auto     | 0       |
+|   field_1_1_fu_417_p3   |     |        | field_1_1   | select | auto_sel | 0       |
+|   opcode_fu_394_p3      |     |        | opcode      | select | auto_sel | 0       |
+|   field_5_fu_432_p3     |     |        | field_5     | select | auto_sel | 0       |
+|   imm12_1_fu_438_p3     |     |        | imm12_1     | select | auto_sel | 0       |
+|   address_1_fu_448_p3   |     |        | address_1   | select | auto_sel | 0       |
+|   add_ln121_fu_454_p2   |     |        | add_ln121   | add    | fabric   | 0       |
+|   add_ln118_fu_465_p2   |     |        | add_ln118   | add    | fabric   | 0       |
+|   result_5_fu_475_p2    |     |        | result_5    | sub    | fabric   | 0       |
+|   result_4_fu_481_p2    |     |        | result_4    | add    | fabric   | 0       |
+|   result_3_fu_487_p2    |     |        | result_3    | or     | auto     | 0       |
+|   result_2_fu_493_p2    |     |        | result_2    | and    | auto     | 0       |
+|   result_1_fu_499_p2    |     |        | result_1    | sub    | fabric   | 0       |
+|   result_fu_505_p2      |     |        | result      | add    | fabric   | 0       |
+|   add_ln135_fu_515_p2   |     |        | add_ln135   | add    | fabric   | 0       |
++-------------------------+-----+--------+-------------+--------+----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++---------------------+---------+------+------+------+--------+-----------------+------+---------+------------------+
+| Name                | Usage   | Type | BRAM | URAM | Pragma | Variable        | Impl | Latency | Bitwidth, Depth, |
+|                     |         |      |      |      |        |                 |      |         | Banks            |
++---------------------+---------+------+------+------+--------+-----------------+------+---------+------------------+
+| + processor         |         |      | 0    | 0    |        |                 |      |         |                  |
+|   main_memory_2_U   | ram_t2p |      |      |      |        | main_memory_2   | auto | 1       | 32, 16, 1        |
+|   register_file_1_U | ram_t2p |      |      |      |        | register_file_1 | auto | 1       | 32, 16, 1        |
++---------------------+---------+------+------+------+--------+-----------------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+  No pragmas found
+

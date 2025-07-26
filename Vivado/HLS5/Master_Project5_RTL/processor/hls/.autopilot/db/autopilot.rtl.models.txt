@@ -1,0 +1,3 @@
+processor_main_memory_2_RAM_AUTO_1R1W
+processor_register_file_1_RAM_AUTO_1R1W
+processor

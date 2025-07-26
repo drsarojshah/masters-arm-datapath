@@ -1,0 +1,101 @@
+
+Input pc = 0; Output main_memory_out = 0x8B0F01CD; Opcode_out= 0x458; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x0000000F 
+
+Input pc = 1; Output main_memory_out = 0xCB0F01CD; Opcode_out= 0x658; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x00000003 
+
+Input pc = 2; Output main_memory_out = 0x8A0F01CD; Opcode_out= 0x450; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x00000000 
+
+Input pc = 3; Output main_memory_out = 0xAA0F01CD; Opcode_out= 0x550; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x0000000F 
+
+Input pc = 4; Output main_memory_out = 0x910031ED; Opcode_out= 0x244; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x6; Result_out = 0x00000012 
+
+Input pc = 5; Output main_memory_out = 0xD10011CD; Opcode_out= 0x344; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x9; Result_out = 0x00000005 
+
+Input pc = 6; Output main_memory_out = 0xF84001CB; Opcode_out= 0x7C2; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x9; Result_out = 0x00000009 
+
+Input pc = 7; Output main_memory_out = 0xF80001EC; Opcode_out= 0x7C0; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x6; Result_out = 0x00000006 
+
+C:\Users\Saroj\Vivado\HLS5\Master_Project5_RTL\processor\hls\sim\verilog>set PATH= 
+
+C:\Users\Saroj\Vivado\HLS5\Master_Project5_RTL\processor\hls\sim\verilog>call C:/Xilinx/Vivado/2024.2/bin/xelab xil_defaultlib.apatb_processor_top glbl -Oenable_linking_all_libraries  -prj processor.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_0_24 -L floating_point_v7_1_19 --lib "ieee_proposed=./ieee_proposed" -s processor  
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_processor_top glbl -Oenable_linking_all_libraries -prj processor.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_24 -L floating_point_v7_1_19 --lib ieee_proposed=./ieee_proposed -s processor 
+Multi-threading is on. Using 22 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_processor_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor_main_memory_2_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_main_memory_2_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor_register_file_1_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_register_file_1_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.processor_main_memory_2_RAM_AUTO...
+Compiling module xil_defaultlib.processor_register_file_1_RAM_AU...
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_processor_top
+Compiling module work.glbl
+Built simulation snapshot processor
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sun May  4 19:39:08 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/processor/xsim_script.tcl
+# xsim {processor} -autoloadwcfg -tclbatch {processor.tcl}
+Time resolution is 1 ps
+source processor.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 8 [0.00%] @ "125000"
+// RTL Simulation : 1 / 8 [100.00%] @ "205000"
+// RTL Simulation : 2 / 8 [100.00%] @ "275000"
+// RTL Simulation : 3 / 8 [100.00%] @ "345000"
+// RTL Simulation : 4 / 8 [100.00%] @ "415000"
+// RTL Simulation : 5 / 8 [100.00%] @ "485000"
+// RTL Simulation : 6 / 8 [100.00%] @ "555000"
+// RTL Simulation : 7 / 8 [100.00%] @ "635000"
+// RTL Simulation : 8 / 8 [100.00%] @ "715000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 775 ns : File "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor.autotb.v" Line 527
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun May  4 19:39:10 2025...
+
+Input pc = 0; Output main_memory_out = 0x8B0F01CD; Opcode_out= 0x458; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x0000000F 
+
+Input pc = 1; Output main_memory_out = 0xCB0F01CD; Opcode_out= 0x658; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x00000003 
+
+Input pc = 2; Output main_memory_out = 0x8A0F01CD; Opcode_out= 0x450; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x00000000 
+
+Input pc = 3; Output main_memory_out = 0xAA0F01CD; Opcode_out= 0x550; OP_value_1_out/Rm= 0x6; OP_value_2_out/Rn= 0x9; Result_out = 0x0000000F 
+
+Input pc = 4; Output main_memory_out = 0x910031ED; Opcode_out= 0x244; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x6; Result_out = 0x00000012 
+
+Input pc = 5; Output main_memory_out = 0xD10011CD; Opcode_out= 0x344; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x9; Result_out = 0x00000005 
+
+Input pc = 6; Output main_memory_out = 0xF84001CB; Opcode_out= 0x7C2; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x9; Result_out = 0x00000009 
+
+Input pc = 7; Output main_memory_out = 0xF80001EC; Opcode_out= 0x7C0; OP_value_1_out/Rm= 0x0; OP_value_2_out/Rn= 0x6; Result_out = 0x00000006 

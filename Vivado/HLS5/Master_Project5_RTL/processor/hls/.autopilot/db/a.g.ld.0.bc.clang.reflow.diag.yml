@@ -1,0 +1,147 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_processor_ir
+Args:            
+  - Callee:          processor
+    DebugLoc:        { File: ../processor_hls.c, Line: 27, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_processor_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../processor_hls.c, Line: 6, Column: 0 }
+Function:        processor
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           main_memory
+  - String:          ''' dimension '
+  - Dim:             '2'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: ../processor_hls.c, Line: 21, Column: 0 }
+Function:        processor
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           register_file
+  - String:          ''' dimension '
+  - Dim:             '2'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../processor_hls.c, Line: 6, Column: 0 }
+Function:        processor
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=2 type=complete  variable=main_memory'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  processor
+  - String:          ' '
+  - varLoc:          '../processor_hls.c:6:0'
+  - String:          ' '
+  - VarName:         main_memory
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../processor_hls.c, Line: 6, Column: 0 }
+Function:        processor
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '2'
+  - String:          ''' for array '''
+  - Name:            main_memory
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../processor_hls.c, Line: 21, Column: 0 }
+Function:        processor
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=2 type=complete  variable=register_file'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  processor
+  - String:          ' '
+  - varLoc:          '../processor_hls.c:21:0'
+  - String:          ' '
+  - VarName:         register_file
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../processor_hls.c, Line: 21, Column: 0 }
+Function:        processor
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '2'
+  - String:          ''' for array '''
+  - Name:            register_file
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../processor_hls.c, Line: 21, Column: 0 }
+Function:        processor
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          register_file
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../processor_hls.c, Line: 6, Column: 0 }
+Function:        processor
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          main_memory
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...

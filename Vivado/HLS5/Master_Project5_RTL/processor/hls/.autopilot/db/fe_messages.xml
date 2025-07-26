@@ -1,0 +1,30 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="processor" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=processor" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../processor_hls.c:6:0" msg_body="Automatically partitioning array 'main_memory' dimension 2 completely based on constant index.">
+        <args Dim="2" Value="main_memory"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../processor_hls.c:21:0" msg_body="Automatically partitioning array 'register_file' dimension 2 completely based on constant index.">
+        <args Dim="2" Value="register_file"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../processor_hls.c:6:0" msg_body="array_partition dim=2 type=complete  variable=main_memory 1 processor ../processor_hls.c:6:0 main_memory">
+        <args PragmaFunction="processor" PragmaIsAuto="1" PragmaOptions="dim=2 type=complete  variable=main_memory" PragmaType="array_partition" VarName="main_memory" varLoc="../processor_hls.c:6:0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../processor_hls.c:6:0" msg_body="Inferring pragma 'array_partition type=complete dim=2' for array 'main_memory' due to pipeline pragma">
+        <args Dim="2" Mode="complete" Name="main_memory" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../processor_hls.c:21:0" msg_body="array_partition dim=2 type=complete  variable=register_file 1 processor ../processor_hls.c:21:0 register_file">
+        <args PragmaFunction="processor" PragmaIsAuto="1" PragmaOptions="dim=2 type=complete  variable=register_file" PragmaType="array_partition" VarName="register_file" varLoc="../processor_hls.c:21:0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../processor_hls.c:21:0" msg_body="Inferring pragma 'array_partition type=complete dim=2' for array 'register_file' due to pipeline pragma">
+        <args Dim="2" Mode="complete" Name="register_file" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../processor_hls.c:21:0" msg_body="Applying array_partition to 'register_file': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="register_file"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../processor_hls.c:6:0" msg_body="Applying array_partition to 'main_memory': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="main_memory"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

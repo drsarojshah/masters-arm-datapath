@@ -1,0 +1,226 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\processor.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/04/25 19:38:57",
+ "timestampMillis": "1746401937155",
+ "buildStep": {
+  "cmdId": "b10acdbb-2838-41b5-807e-64c441755631",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\logs\\processor.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\hls_config.cfg --work_dir processor ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\hls_config.cfg",
+   "--work_dir",
+   "processor"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/04/25 19:38:57",
+ "timestampMillis": "1746401937155",
+ "status": {
+  "cmdId": "b10acdbb-2838-41b5-807e-64c441755631",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/04/25 19:39:00",
+ "timestampMillis": "1746401940742",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "processor",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Saroj\\Vivado\\HLS5\\processor_hls.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/04/25 19:39:00",
+ "timestampMillis": "1746401940743",
+ "buildStep": {
+  "cmdId": "dcd8f7ee-a241-41c1-afc1-cbce397c42c5",
+  "name": "",
+  "logFile": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/04/25 19:39:00",
+ "timestampMillis": "1746401940743",
+ "status": {
+  "cmdId": "dcd8f7ee-a241-41c1-afc1-cbce397c42c5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:39:00",
+ "timestampMillis": "1746401940743",
+ "report": {
+  "path": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\sim\\report\\processor_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:39:00",
+ "timestampMillis": "1746401940743",
+ "report": {
+  "path": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:39:00",
+ "timestampMillis": "1746401940744",
+ "report": {
+  "path": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:39:00",
+ "timestampMillis": "1746401940744",
+ "report": {
+  "path": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:39:00",
+ "timestampMillis": "1746401940745",
+ "report": {
+  "path": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/04/25 19:39:11",
+ "timestampMillis": "1746401951082",
+ "status": {
+  "cmdId": "dcd8f7ee-a241-41c1-afc1-cbce397c42c5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/04/25 19:39:11",
+ "timestampMillis": "1746401951177",
+ "status": {
+  "cmdId": "b10acdbb-2838-41b5-807e-64c441755631",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:39:11",
+ "timestampMillis": "1746401951178",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:39:11",
+ "timestampMillis": "1746401951178",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

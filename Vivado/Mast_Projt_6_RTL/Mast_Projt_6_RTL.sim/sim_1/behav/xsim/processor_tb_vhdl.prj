@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Mast_Projt_6_RTL.srcs/sources_1/imports/vhdl/processor.vhd" \
+"../../../../Mast_Projt_6_RTL.srcs/sources_1/imports/vhdl/processor_main_memory_2_RAM_AUTO_1R1W.vhd" \
+"../../../../Mast_Projt_6_RTL.srcs/sources_1/imports/vhdl/processor_register_file_1_RAM_AUTO_1R1W.vhd" \
+"../../../../Mast_Projt_6_RTL.srcs/sim_1/new/Mast_Projt_6_RTL_tb.vhd" \
+
+# Do not sort compile order
+nosort

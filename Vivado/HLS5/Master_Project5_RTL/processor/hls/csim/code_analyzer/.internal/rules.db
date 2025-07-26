@@ -1,0 +1,465 @@
+{
+    "rules": {
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_hls.c.0.bc', 'C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_hls.c.0.bc.d']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\autopilot",
+                "-vitis-hls=C:\\Xilinx\\Vitis\\2024.2",
+                "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-hls-clock-period=10.0",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fhlstoplevel=processor",
+                "../processor_hls.c",
+                "-o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.bc"
+            ],
+            "exectime": 0.09875726699829102,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_tb.c.0.o', 'C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_tb.c.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_tb.c.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis\\2024.2",
+                "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fslxskipfunctionbody",
+                "-fhlstoplevel=processor",
+                "C:/Users/Lenovo/Vivado/HLS5/processor_tb.c",
+                "-o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_tb.c.0.o"
+            ],
+            "exectime": 0.0853269100189209,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_hls.c.0.o', 'C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_hls.c.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis\\2024.2",
+                "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fslxskipfunctionbody",
+                "-fhlstoplevel=processor",
+                "../processor_hls.c",
+                "-o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.o"
+            ],
+            "exectime": 0.06649160385131836,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/llvm-link.exe",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.bc",
+                "-o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.07371187210083008,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.26059937477111816,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\app.exe']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_tb.c.0.o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc",
+                "-fhls",
+                "-fhlstoplevel=processor",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\dds_v6_0",
+                "-lIp_dds_compiler_v6_0_bitacc_cmodel",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fft_v9_1",
+                "-lIp_xfft_v9_1_bitacc_cmodel",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fir_v7_0",
+                "-lIp_fir_compiler_v7_2_bitacc_cmodel",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fpo_v7_1",
+                "-lIp_floating_point_v7_1_bitacc_cmodel",
+                "-lm",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\lib\\csim",
+                "-lhlsm-GCC95-x64",
+                "-lhlsmc++-GCC95-x64",
+                "-lgmp",
+                "-lmpfr",
+                "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\x86_64-w64-mingw32\\lib",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib\\gcc",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib\\gcc\\x86_64-w64-mingw32\\9.5.0",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\libexec\\gcc\\x86_64-w64-mingw32\\9.5.0",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-Wl,-mllvm,-profilerOutputDirectory=C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\profiler\\0",
+                "-fslxpthreads",
+                "-lpthread"
+            ],
+            "exectime": 0.8270857334136963,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\hls_ir_info.json']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/irInfoDump.exe",
+                "--ir-module",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--json-output",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\hls_ir_info.json",
+                "--hw-function",
+                "processor"
+            ],
+            "exectime": 0.24031996726989746,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\binary_dependencies.json']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\libexec\\clang-scan-deps.exe",
+                "--compilation-database=C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\compile_commands.json",
+                "--format=vitiscxx",
+                "--reuse-filemanager=false",
+                "--output=C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\binary_dependencies.json"
+            ],
+            "exectime": 0.3704719543457031,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stdout.txt', 'C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stderr.txt']": {
+            "command": [
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe"
+            ],
+            "exectime": 0.06183767318725586,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\tracing\\csim\\build"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\annotated.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/optimizer.exe",
+                "-DFGPass",
+                "-outputDir",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\output",
+                "-logDir",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\log",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "-staticFile",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-traceFile",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\profiler\\0\\app_0_0\\thread0000-trace.txt",
+                "-o",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\annotated.bc"
+            ],
+            "exectime": 0.34497547149658203,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Lenovo\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\dataflow\\\\0\\\\taskgraph.json']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/parallelismSelector.exe",
+                "--basepath",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL",
+                "--fpga-part",
+                "xc7a35t-cpg236-1",
+                "--device-totals",
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\platform\\logic\\fpga.devicetotals",
+                "--clock-frequency",
+                "100.0",
+                "--out-dir",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\output",
+                "--log-dir",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\log",
+                "--objective",
+                "none",
+                "--performance-target",
+                "target_both",
+                "--max-array-optimization-factor",
+                "1024",
+                "--complete-partition-limit",
+                "4",
+                "--lut-constraint",
+                "100.0",
+                "--ff-constraint",
+                "100.0",
+                "--dsp-constraint",
+                "100.0",
+                "--bram-constraint",
+                "100.0",
+                "--uram-constraint",
+                "100.0",
+                "--max-iterations",
+                "1000",
+                "--max-iterations-branch-full-log",
+                "20",
+                "--ir-module",
+                "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\annotated.bc",
+                "--df-id",
+                "0",
+                "--df-target",
+                "%F204"
+            ],
+            "exectime": 1.3847098350524902,
+            "cwd": "C:\\Users\\Lenovo\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_hls.c.0.bc', 'C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_hls.c.0.bc.d']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\autopilot",
+                "-vitis-hls=C:\\Xilinx\\Vitis\\2024.2",
+                "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-hls-clock-period=10.0",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fhlstoplevel=processor",
+                "../processor_hls.c",
+                "-o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.bc"
+            ],
+            "exectime": 0.2165670394897461,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_tb.c.0.o', 'C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_tb.c.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_tb.c.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis\\2024.2",
+                "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fslxskipfunctionbody",
+                "-fhlstoplevel=processor",
+                "C:/Users/Saroj/Vivado/HLS5/processor_tb.c",
+                "-o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_tb.c.0.o"
+            ],
+            "exectime": 0.039041996002197266,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_hls.c.0.o', 'C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\processor_hls.c.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis\\2024.2",
+                "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-fslxskipfunctionbody",
+                "-fhlstoplevel=processor",
+                "../processor_hls.c",
+                "-o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.o"
+            ],
+            "exectime": 0.034589290618896484,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/llvm-link.exe",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.bc",
+                "-o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.04095315933227539,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.07371068000793457,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\app.exe']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/clang.exe",
+                "-o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_tb.c.0.o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\processor_hls.c.0.o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc",
+                "-fhls",
+                "-fhlstoplevel=processor",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\dds_v6_0",
+                "-lIp_dds_compiler_v6_0_bitacc_cmodel",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fft_v9_1",
+                "-lIp_xfft_v9_1_bitacc_cmodel",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fir_v7_0",
+                "-lIp_fir_compiler_v7_2_bitacc_cmodel",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\tools\\fpo_v7_1",
+                "-lIp_floating_point_v7_1_bitacc_cmodel",
+                "-lm",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\win64\\lib\\csim",
+                "-lhlsm-GCC95-x64",
+                "-lhlsmc++-GCC95-x64",
+                "-lgmp",
+                "-lmpfr",
+                "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\x86_64-w64-mingw32\\lib",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib\\gcc",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\lib\\gcc\\x86_64-w64-mingw32\\9.5.0",
+                "-LC:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt\\libexec\\gcc\\x86_64-w64-mingw32\\9.5.0",
+                "-fslxtrace",
+                "-fslx-compile-mode",
+                "-Wl,-mllvm,-profilerOutputDirectory=C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\profiler\\0",
+                "-fslxpthreads",
+                "-lpthread"
+            ],
+            "exectime": 0.31264781951904297,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_1\\\\hls_ir_info.json']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/irInfoDump.exe",
+                "--ir-module",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_1\\project.symbols.bc",
+                "--json-output",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_1\\hls_ir_info.json",
+                "--hw-function",
+                "processor"
+            ],
+            "exectime": 0.05333089828491211,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\binary_dependencies.json']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\libexec\\clang-scan-deps.exe",
+                "--compilation-database=C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\compile_commands.json",
+                "--format=vitiscxx",
+                "--reuse-filemanager=false",
+                "--output=C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\binary_dependencies.json"
+            ],
+            "exectime": 0.10895633697509766,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_1\\\\binary_dependencies.json']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\libexec\\clang-scan-deps.exe",
+                "--compilation-database=C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_1\\compile_commands.json",
+                "--format=vitiscxx",
+                "--reuse-filemanager=false",
+                "--output=C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_1\\binary_dependencies.json"
+            ],
+            "exectime": 0.1091156005859375,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stdout.txt', 'C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stderr.txt']": {
+            "command": [
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe"
+            ],
+            "exectime": 0.015372276306152344,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\tracing\\csim\\build"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_1\\\\annotated.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/optimizer.exe",
+                "-DFGPass",
+                "-outputDir",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\output",
+                "-logDir",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\log",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_1\\project.symbols.bc",
+                "-staticFile",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_1\\static.xml",
+                "-traceFile",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\profiler\\0\\app_1_1\\thread0000-trace.txt",
+                "-o",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_1\\annotated.bc"
+            ],
+            "exectime": 0.10915637016296387,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        },
+        "['C:\\\\Users\\\\Saroj\\\\Vivado\\\\HLS5\\\\Master_Project5_RTL\\\\processor\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\dataflow\\\\0\\\\taskgraph.json']": {
+            "command": [
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\/libexec/parallelismSelector.exe",
+                "--basepath",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL",
+                "--fpga-part",
+                "xc7a35t-cpg236-1",
+                "--device-totals",
+                "c:\\xilinx\\vitis\\2024.2\\vcxx\\data\\platform\\logic\\fpga.devicetotals",
+                "--clock-frequency",
+                "100.0",
+                "--out-dir",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\output",
+                "--log-dir",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\log",
+                "--objective",
+                "none",
+                "--performance-target",
+                "target_both",
+                "--max-array-optimization-factor",
+                "1024",
+                "--complete-partition-limit",
+                "4",
+                "--lut-constraint",
+                "100.0",
+                "--ff-constraint",
+                "100.0",
+                "--dsp-constraint",
+                "100.0",
+                "--bram-constraint",
+                "100.0",
+                "--uram-constraint",
+                "100.0",
+                "--max-iterations",
+                "1000",
+                "--max-iterations-branch-full-log",
+                "20",
+                "--ir-module",
+                "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_1\\annotated.bc",
+                "--df-id",
+                "0",
+                "--df-target",
+                "%F204"
+            ],
+            "exectime": 0.6842548847198486,
+            "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+        }
+    }
+}

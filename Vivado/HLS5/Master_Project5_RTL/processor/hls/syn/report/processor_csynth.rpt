@@ -1,0 +1,193 @@
+
+
+================================================================
+== Vitis HLS Report for 'processor'
+================================================================
+* Date:           Sun May  4 19:38:49 2025
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        processor
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: artix7
+* Target device:  xc7a35t-cpg236-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.157 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        1|        7|  10.000 ns|  70.000 ns|    2|    8|       no|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+----+-------+-------+-----+
+|       Name      | BRAM_18K| DSP|   FF  |  LUT  | URAM|
++-----------------+---------+----+-------+-------+-----+
+|DSP              |        -|   -|      -|      -|    -|
+|Expression       |        -|   -|      0|    370|    -|
+|FIFO             |        -|   -|      -|      -|    -|
+|Instance         |        -|   -|      -|      -|    -|
+|Memory           |        0|   -|    128|     16|    0|
+|Multiplexer      |        -|   -|      0|    194|    -|
+|Register         |        -|   -|    166|      -|    -|
++-----------------+---------+----+-------+-------+-----+
+|Total            |        0|   0|    294|    580|    0|
++-----------------+---------+----+-------+-------+-----+
+|Available        |      100|  90|  41600|  20800|    0|
++-----------------+---------+----+-------+-------+-----+
+|Utilization (%)  |        0|   0|     ~0|      2|    0|
++-----------------+---------+----+-------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    +-------------------+-------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |       Memory      |             Module            | BRAM_18K| FF | LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +-------------------+-------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |main_memory_2_U    |main_memory_2_RAM_AUTO_1R1W    |        0|  64|   8|    0|    16|   32|     1|          512|
+    |register_file_1_U  |register_file_1_RAM_AUTO_1R1W  |        0|  64|   8|    0|    16|   32|     1|          512|
+    +-------------------+-------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |Total              |                               |        0| 128|  16|    0|    32|   64|     2|         1024|
+    +-------------------+-------------------------------+---------+----+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------------------+----------+----+---+----+------------+------------+
+    |        Variable Name        | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------------------+----------+----+---+----+------------+------------+
+    |add_ln118_fu_465_p2          |         +|   0|  0|  13|           4|           4|
+    |add_ln121_fu_454_p2          |         +|   0|  0|  13|           4|           4|
+    |add_ln135_fu_515_p2          |         +|   0|  0|  13|           4|           4|
+    |result_4_fu_481_p2           |         +|   0|  0|  39|          32|          32|
+    |result_fu_505_p2             |         +|   0|  0|  39|          32|          32|
+    |result_1_fu_499_p2           |         -|   0|  0|  39|          32|          32|
+    |result_5_fu_475_p2           |         -|   0|  0|  39|          32|          32|
+    |ap_predicate_pred210_state5  |       and|   0|  0|   2|           1|           1|
+    |result_2_fu_493_p2           |       and|   0|  0|  32|          32|          32|
+    |icmp_ln52_fu_308_p2          |      icmp|   0|  0|  36|          29|           1|
+    |icmp_ln65_1_fu_368_p2        |      icmp|   0|  0|  17|          10|           9|
+    |icmp_ln65_fu_362_p2          |      icmp|   0|  0|  17|          10|          10|
+    |ap_predicate_pred232_state6  |        or|   0|  0|   2|           1|           1|
+    |or_ln65_fu_374_p2            |        or|   0|  0|   2|           1|           1|
+    |result_3_fu_487_p2           |        or|   0|  0|  32|          32|          32|
+    |address_1_fu_448_p3          |    select|   0|  0|   4|           1|           1|
+    |field_1_1_fu_417_p3          |    select|   0|  0|   4|           1|           1|
+    |field_5_fu_432_p3            |    select|   0|  0|   4|           1|           1|
+    |imm12_1_fu_438_p3            |    select|   0|  0|  12|           1|          12|
+    |opcode_fu_394_p3             |    select|   0|  0|  11|           1|          11|
+    +-----------------------------+----------+----+---+----+------------+------------+
+    |Total                        |          |   0|  0| 370|         261|         253|
+    +-----------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------------------------+----+-----------+-----+-----------+
+    |                 Name                 | LUT| Input Size| Bits| Total Bits|
+    +--------------------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                             |  41|         10|    1|         10|
+    |ap_phi_mux_result_6_phi_fu_258_p18    |   9|          2|   32|         64|
+    |ap_phi_mux_storemerge6_phi_fu_287_p6  |   9|          2|   32|         64|
+    |main_memory_2_address0_local          |  21|          5|    4|         20|
+    |main_memory_2_address1_local          |  17|          4|    4|         16|
+    |register_file_1_address0_local        |  21|          5|    4|         20|
+    |register_file_1_address1_local        |  17|          4|    4|         16|
+    |register_file_1_d0_local              |  17|          4|   32|        128|
+    |result_6_reg_254                      |  29|          7|   32|        224|
+    |storemerge6_reg_284                   |  13|          3|   32|         96|
+    +--------------------------------------+----+-----------+-----+-----------+
+    |Total                                 | 194|         46|  177|        658|
+    +--------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-----------------------------+----+----+-----+-----------+
+    |             Name            | FF | LUT| Bits| Const Bits|
+    +-----------------------------+----+----+-----+-----------+
+    |address_1_reg_603            |   4|   0|    4|          0|
+    |address_reg_558              |   4|   0|    4|          0|
+    |ap_CS_fsm                    |   9|   0|    9|          0|
+    |ap_predicate_pred156_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred156_state6  |   1|   0|    1|          0|
+    |ap_predicate_pred161_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred161_state6  |   1|   0|    1|          0|
+    |ap_predicate_pred167_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred172_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred177_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred182_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred187_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred192_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred210_state5  |   1|   0|    1|          0|
+    |ap_predicate_pred232_state6  |   1|   0|    1|          0|
+    |field_1_reg_553              |   4|   0|    4|          0|
+    |field_3_reg_580              |   4|   0|    4|          0|
+    |field_4_reg_547              |   4|   0|    4|          0|
+    |field_5_reg_596              |   4|   0|    4|          0|
+    |icmp_ln52_reg_538            |   1|   0|    1|          0|
+    |imm12_reg_563                |  12|   0|   12|          0|
+    |opcode_reg_576               |  11|   0|   11|          0|
+    |or_ln65_reg_568              |   1|   0|    1|          0|
+    |pc_in_read_reg_533           |  32|   0|   32|          0|
+    |result_6_reg_254             |  32|   0|   32|          0|
+    |storemerge6_reg_284          |  32|   0|   32|          0|
+    +-----------------------------+----+----+-----+-----------+
+    |Total                        | 166|   0|  166|          0|
+    +-----------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------+-----+-----+------------+-----------------+--------------+
+|        RTL Ports       | Dir | Bits|  Protocol  |  Source Object  |    C Type    |
++------------------------+-----+-----+------------+-----------------+--------------+
+|ap_clk                  |   in|    1|  ap_ctrl_hs|        processor|  return value|
+|ap_rst                  |   in|    1|  ap_ctrl_hs|        processor|  return value|
+|ap_start                |   in|    1|  ap_ctrl_hs|        processor|  return value|
+|ap_done                 |  out|    1|  ap_ctrl_hs|        processor|  return value|
+|ap_idle                 |  out|    1|  ap_ctrl_hs|        processor|  return value|
+|ap_ready                |  out|    1|  ap_ctrl_hs|        processor|  return value|
+|pc_in                   |   in|   32|     ap_none|            pc_in|        scalar|
+|main_memory_out         |  out|   32|      ap_vld|  main_memory_out|       pointer|
+|main_memory_out_ap_vld  |  out|    1|      ap_vld|  main_memory_out|       pointer|
+|opcode_out              |  out|   32|      ap_vld|       opcode_out|       pointer|
+|opcode_out_ap_vld       |  out|    1|      ap_vld|       opcode_out|       pointer|
+|op_value_1_out          |  out|   32|      ap_vld|   op_value_1_out|       pointer|
+|op_value_1_out_ap_vld   |  out|    1|      ap_vld|   op_value_1_out|       pointer|
+|op_value_2_out          |  out|   32|      ap_vld|   op_value_2_out|       pointer|
+|op_value_2_out_ap_vld   |  out|    1|      ap_vld|   op_value_2_out|       pointer|
+|result_out              |  out|   32|      ap_vld|       result_out|       pointer|
+|result_out_ap_vld       |  out|    1|      ap_vld|       result_out|       pointer|
++------------------------+-----+-----+------------+-----------------+--------------+
+

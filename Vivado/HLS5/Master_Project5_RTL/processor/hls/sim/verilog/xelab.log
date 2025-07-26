@@ -1,0 +1,32 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_processor_top glbl -Oenable_linking_all_libraries -prj processor.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_24 -L floating_point_v7_1_19 --lib ieee_proposed=./ieee_proposed -s processor 
+Multi-threading is on. Using 22 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_processor_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor_main_memory_2_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_main_memory_2_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/processor_register_file_1_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_register_file_1_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Saroj/Vivado/HLS5/Master_Project5_RTL/processor/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.processor_main_memory_2_RAM_AUTO...
+Compiling module xil_defaultlib.processor_register_file_1_RAM_AU...
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_processor_top
+Compiling module work.glbl
+Built simulation snapshot processor

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="processor_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="353.990 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,018.391 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="240"></NameColumnWidth>
+      <ValueColumnWidth column_width="139"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/processor_tb/ap_clk" type="logic">
+      <obj_property name="ElementShortName">ap_clk</obj_property>
+      <obj_property name="ObjectShortName">ap_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/ap_rst" type="logic">
+      <obj_property name="ElementShortName">ap_rst</obj_property>
+      <obj_property name="ObjectShortName">ap_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/ap_start" type="logic">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/ap_done" type="logic">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/ap_idle" type="logic">
+      <obj_property name="ElementShortName">ap_idle</obj_property>
+      <obj_property name="ObjectShortName">ap_idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/ap_ready" type="logic">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/main_memory_out" type="array">
+      <obj_property name="ElementShortName">main_memory_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">main_memory_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/main_memory_out_ap_vld" type="logic">
+      <obj_property name="ElementShortName">main_memory_out_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">main_memory_out_ap_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/opcode_out" type="array">
+      <obj_property name="ElementShortName">opcode_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/opcode_out_ap_vld" type="logic">
+      <obj_property name="ElementShortName">opcode_out_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">opcode_out_ap_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/op_value_1_out" type="array">
+      <obj_property name="ElementShortName">op_value_1_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_value_1_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/op_value_1_out_ap_vld" type="logic">
+      <obj_property name="ElementShortName">op_value_1_out_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">op_value_1_out_ap_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/op_value_2_out" type="array">
+      <obj_property name="ElementShortName">op_value_2_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_value_2_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/op_value_2_out_ap_vld" type="logic">
+      <obj_property name="ElementShortName">op_value_2_out_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">op_value_2_out_ap_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/result_out" type="array">
+      <obj_property name="ElementShortName">result_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_tb/result_out_ap_vld" type="logic">
+      <obj_property name="ElementShortName">result_out_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">result_out_ap_vld</obj_property>
+   </wvobject>
+</wave_config>

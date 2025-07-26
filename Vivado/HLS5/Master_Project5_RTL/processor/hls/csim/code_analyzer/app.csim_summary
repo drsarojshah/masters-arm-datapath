@@ -1,0 +1,80 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\csim\\code_analyzer\\app.csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sun May  4 19:38:24 2025",
+ "timestampMillis": "1746401904312",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sun May  4 19:38:24 2025",
+ "timestampMillis": "1746401904322",
+ "buildStep": {
+  "cmdId": "deed3572-2940-11f0-ba7d-8cb87eee7f77",
+  "name": "vitis_c++",
+  "logFile": "",
+  "commandLine": "vitis_c++ code_analyzer",
+  "args": [
+   "code_analyzer"
+  ],
+  "iniFiles": [],
+  "cwd": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun May  4 19:38:24 2025",
+ "timestampMillis": "1746401904322",
+ "status": {
+  "cmdId": "deed3572-2940-11f0-ba7d-8cb87eee7f77",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sun May  4 19:38:26 2025",
+ "timestampMillis": "1746401906069",
+ "status": {
+  "cmdId": "deed3572-2940-11f0-ba7d-8cb87eee7f77",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sun May  4 19:38:26 2025",
+ "timestampMillis": "1746401906069",
+ "report": {
+  "path": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "VCXX_CODE_ANALYZER",
+  "cmdId": "deed3572-2940-11f0-ba7d-8cb87eee7f77"
+ }
+}
+</ENTRY>

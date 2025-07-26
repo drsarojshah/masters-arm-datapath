@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\processor.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/04/25 19:38:18",
+ "timestampMillis": "1746401898758",
+ "buildStep": {
+  "cmdId": "344473ff-2b4f-451f-ae0e-325089373f33",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\logs\\processor.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\hls_config.cfg --work_dir processor ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\hls_config.cfg",
+   "--work_dir",
+   "processor"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/04/25 19:38:18",
+ "timestampMillis": "1746401898759",
+ "status": {
+  "cmdId": "344473ff-2b4f-451f-ae0e-325089373f33",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/04/25 19:38:22",
+ "timestampMillis": "1746401902475",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "processor",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Saroj\\Vivado\\HLS5\\processor_hls.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/04/25 19:38:22",
+ "timestampMillis": "1746401902476",
+ "buildStep": {
+  "cmdId": "a46d470f-4437-48f4-9ea3-61235aaea5b7",
+  "name": "",
+  "logFile": "C:/Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL\\processor\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Saroj\\Vivado\\HLS5\\Master_Project5_RTL"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/04/25 19:38:22",
+ "timestampMillis": "1746401902476",
+ "status": {
+  "cmdId": "a46d470f-4437-48f4-9ea3-61235aaea5b7",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/04/25 19:38:26",
+ "timestampMillis": "1746401906121",
+ "status": {
+  "cmdId": "a46d470f-4437-48f4-9ea3-61235aaea5b7",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/04/25 19:38:26",
+ "timestampMillis": "1746401906230",
+ "status": {
+  "cmdId": "344473ff-2b4f-451f-ae0e-325089373f33",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:38:26",
+ "timestampMillis": "1746401906231",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/04/25 19:38:26",
+ "timestampMillis": "1746401906231",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

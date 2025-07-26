@@ -1,0 +1,12 @@
+{
+  "name": "Master_Project5_RTL",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "processor"
+  },
+  "template": "empty_hls_component"
+}

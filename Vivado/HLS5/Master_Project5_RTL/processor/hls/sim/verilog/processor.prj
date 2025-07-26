@@ -1,0 +1,7 @@
+sv work "glbl.v"
+sv xil_defaultlib "processor.autotb.v"
+sv xil_defaultlib "processor.v"
+sv xil_defaultlib "processor_main_memory_2_RAM_AUTO_1R1W.v"
+sv xil_defaultlib "processor_register_file_1_RAM_AUTO_1R1W.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+
