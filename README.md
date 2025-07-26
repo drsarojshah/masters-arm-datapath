@@ -48,11 +48,11 @@ This project models and simulates a simplified ARMv8-style processor using a sub
 
 ---
 
-## 📂 File Structure
+## 📂 File/Folder Structure
 
 ```
-├── main.c
-├── result_waveform.png
+├── Code C
+├── Vivado
 ├── README.md
 ```
 
@@ -60,7 +60,7 @@ This project models and simulates a simplified ARMv8-style processor using a sub
 
 ## 📥 Downloads
 
-- 📘 [Final Report or Presentation (PDF)](masters-presentation.pdf)  
+- 📘 [Final Report (PDF)](masters-presentation.pdf)  
 - 🌐 [Portfolio Website](https://drsarojshah.github.io)  
 
 ---
